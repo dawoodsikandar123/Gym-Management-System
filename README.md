@@ -3,10 +3,12 @@
 A web based gym management system. Dashboard shows live activity, while members, trainers, attendance and payments are each managed from their own separate pages.
 
 ## Project Info
-
-- University: DHA Suffa University
-- Semester: 4th
+- Developed by: Dawood Sikandar
+- Course Instructor: Sir Daniyal Noor Alam
+- Semester: 4th (Fall)
 - Course: DBMS Lab
+- Department: Computer Science
+- University: DHA Suffa University
 
 ## Idea
 

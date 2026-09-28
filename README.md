@@ -3,12 +3,15 @@
 A web based gym management system. Dashboard shows live activity, while members, trainers, attendance and payments are each managed from their own separate pages.
 
 ## Project Info
-- Developed by: Dawood Sikandar
-- Course Instructor: Sir Daniyal Noor Alam
-- Semester: 4th (Fall)
-- Course: DBMS Lab
-- Department: Computer Science
-- University: DHA Suffa University
+
+| **Field** | **Details** |
+|---|---|
+| **Developed by** | Dawood Sikandar |
+| **Course Instructor** | Sir Daniyal Noor Alam |
+| **Semester** | 4th (Fall) |
+| **Course** | DBMS Lab |
+| **Department** | Computer Science |
+| **University** | DHA Suffa University |
 
 ## Idea
 
@@ -18,9 +21,13 @@ The idea behind this project was to move away from that. A dashboard showing liv
 
 ## Note
 
-At the time I made this project and I didn't know how to properly use Git and GitHub. So whatever files I had at that time are got pushed. The database file itself just wasn't uploaded to GitHub, left out on purpose because of security.
+At the time I made this project, I didn't know how to properly use Git and GitHub, so whatever files I had at that time were pushed.
 
-After the semester ended I deleted the rest of the project files from my system, config file, database, setup stuff, all of it. I didn't think I would need them again. So right now I don't have those files anymore, which means I can't push them even if I wanted to. What's in this repo is all that's left of the project.
+The database file itself wasn't uploaded to GitHub and was left out on purpose because of security.
+
+After the semester ended, I deleted the rest of the project files from my system, including the config file, database, setup files, and other related files. I didn't think I would need them again. So right now I don't have those files anymore, which means I can't push them even if I wanted to.
+
+What's in this repo is all that's left of the project.
 
 ## Tech Stack
 
@@ -29,6 +36,7 @@ After the semester ended I deleted the rest of the project files from my system,
 - MySQL for database
 - XAMPP for local server
 - ngrok for exposing the local server through a public URL
+
 ## Features
 
 - Admin login
@@ -39,9 +47,10 @@ After the semester ended I deleted the rest of the project files from my system,
 - Attendance tracking
 - Payment tracking
 - Remote testing and demo through ngrok
+
 ## Files
 
-```
+```text
 Gym-Management-System/
 api/                  php/api files
 auth/                 login and auth logic
@@ -56,21 +65,5 @@ activities.php        backend logic for activities
 style.css             styling for all pages
 README.md
 ```
-
-## How to run it
-
-1. Install XAMPP
-2. Clone the repo into your htdocs folder
-3. Start Apache and MySQL from XAMPP
-4. Make a database in phpMyAdmin
-5. Create tables for members, trainers, attendance, payments and activities. Schema is not included, **see note above**
-6. Set your own DB username and password in the connection file
-7. Open login.html from localhost in your browser
-
-## License
-
-No license.
-
 ## Status
-
 Old university semester project. Not maintained.
